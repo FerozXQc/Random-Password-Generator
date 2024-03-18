@@ -27,3 +27,4 @@ document.getElementById('generateBtn').addEventListener('click', function() {
 
      document.getElementById('result').innerText = 'Generated Password: ' + password;
 });
+
