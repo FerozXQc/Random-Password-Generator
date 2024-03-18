@@ -9,8 +9,8 @@ document.getElementById('generateBtn').addEventListener('click', function() {
 
   const useSpecial = document.getElementById('special').checked;
 
-  let characters;
-  let password;
+  let characters = "";
+  let password = "";
 
   if (useUppercase) characters += 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
   if (useLowercase) characters += 'abcdefghijklmnopqrstuvwxyz';
